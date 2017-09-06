@@ -1,0 +1,10 @@
+<div class="container">
+<% @creatures.each do |creature| %>
+<div class="row">
+<p>
+  <strong>Name:</strong> <%= creature.name %><br>
+  <strong>Description:</strong> <%= creature.description %>
+</p>
+</div>
+<% end %>
+</div>
